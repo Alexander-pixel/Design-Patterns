@@ -1,13 +1,12 @@
 #pragma once
-
 #include "Unit.h"
 
-class Wizard:public Unit
+class Wizard: public Unit
 {
 protected:
-    int mp=0;
+    int mp = 0;
 public:
-    Wizard(const string&n, int m);
+    Wizard(const string& n, int m);
 };
 
 

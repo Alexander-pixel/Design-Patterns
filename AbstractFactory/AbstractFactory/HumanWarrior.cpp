@@ -2,17 +2,16 @@
 
 void HumanWarrior::info() const
 {
-    cout<<"~~~==*****==~~~"<<endl;
-    cout<<"Race: Human"<<endl;
-    cout<<"Name: "<<name<<endl;
-    cout<<"Armor: "<<armor<<endl;
-    cout<<"Min Damage: "<<min_dmg<<endl;
-    cout<<"Max Damage: "<<max_dmg<<endl;
-    cout<<"~~~==*****==~~~"<<endl;
+    std::cout << "~~~==*****==~~~" << std::endl;
+    std::cout << "Race: Human" << std::endl;
+    std::cout << "Name: " << name << std::endl;
+    std::cout << "Armor: " << armor << std::endl;
+    std::cout << "Min Damage: " << min_dmg << std::endl;
+    std::cout << "Max Damage: " << max_dmg << std::endl;
+    std::cout << "~~~==*****==~~~" << std::endl;
 }
 
-HumanWarrior::HumanWarrior()
-:Warrior("HumanWarrior", 100, 10, 50)
+HumanWarrior::HumanWarrior(): Warrior("HumanWarrior", 100, 10, 50)
 {
 
 }

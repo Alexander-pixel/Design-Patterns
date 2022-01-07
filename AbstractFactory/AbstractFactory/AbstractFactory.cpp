@@ -1,3 +1,3 @@
 #include "AbstractFactory.h"
 
-AbstractFactory::~AbstractFactory()=default;
+AbstractFactory::~AbstractFactory() = default;

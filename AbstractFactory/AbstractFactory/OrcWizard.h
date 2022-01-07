@@ -2,11 +2,10 @@
 
 #include "Wizard.h"
 
-class OrcWizard:public Wizard
+class OrcWizard: public Wizard
 {
 public:
     OrcWizard();
-
     void info() const override;
 };
 

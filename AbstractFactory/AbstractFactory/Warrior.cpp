@@ -1,6 +1,6 @@
 #include "Warrior.h"
 
-Warrior::Warrior(const string &n, int a, int min, int max)
+Warrior::Warrior(const std::string &n, int a, int min, int max)
 :Unit(n)
 {
     armor = a;

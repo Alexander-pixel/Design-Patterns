@@ -2,7 +2,7 @@
 
 #include "Warrior.h"
 
-class HumanWarrior:public Warrior
+class HumanWarrior: public Warrior
 {
 public:
     HumanWarrior();

@@ -2,20 +2,16 @@
 #include<iostream>
 #include<string>
 
-using namespace std;
-
-
 class Unit
 {
 protected:
-    string name;
+    std::string name;
 public:
-    Unit(const string&n);
+    Unit(const std::string& n);
     virtual ~Unit();
-    const string &getName() const;
-    void setName(const string &name);
-    virtual void info()const=0;
-
+    const std::string &getName() const;
+    void setName(const std::string &name);
+    virtual void info() const = 0;
 };
 
 

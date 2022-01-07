@@ -1,12 +1,10 @@
 #pragma once
-
 #include "Warrior.h"
 
-class OrcWarrior:public Warrior
+class OrcWarrior: public Warrior
 {
 public:
     OrcWarrior();
-
     void info() const override;
 };
 

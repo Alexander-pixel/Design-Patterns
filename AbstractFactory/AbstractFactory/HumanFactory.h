@@ -3,7 +3,7 @@
 #include "HumanWizard.h"
 #include "HumanWarrior.h"
 
-class HumanFactory:public AbstractFactory
+class HumanFactory: public AbstractFactory
 {
 public:
     Wizard *createWizard() const override;

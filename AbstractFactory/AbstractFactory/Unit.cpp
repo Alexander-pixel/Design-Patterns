@@ -1,18 +1,18 @@
 #include "Unit.h"
 
-const string &Unit::getName() const
+const std::string &Unit::getName() const
 {
     return name;
 }
 
-void Unit::setName(const string &name)
+void Unit::setName(const std::string &name)
 {
     Unit::name = name;
 }
 
-Unit::Unit(const string &n)
+Unit::Unit(const std::string &n)
 {
     name = n;
 }
 
-Unit::~Unit()=default;
+Unit::~Unit() = default;
