@@ -1,3 +1,3 @@
 #include "AbstractNewElectricitySystem.h"
 
-AbstractNewElectricitySystem::~AbstractNewElectricitySystem()=default;
+AbstractNewElectricitySystem::~AbstractNewElectricitySystem() = default;

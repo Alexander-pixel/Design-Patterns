@@ -2,10 +2,10 @@
 
 NewElectricitySystem::NewElectricitySystem()
 {
-    voltage  = rand()%20+210;
+    voltage  = rand() % 20 + 210;
 }
 
- string NewElectricitySystem::matchWideSocket() const
+std::string NewElectricitySystem::matchWideSocket() const
 {
-    return to_string(voltage)+"V";
+    return std::to_string(voltage) + "V";
 }

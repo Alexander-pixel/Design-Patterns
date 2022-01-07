@@ -1,6 +1,7 @@
 #include"ElectricityConsumer.h"
 #include"OldElectricitySystem.h"
 #include"Adapter.h"
+
 int main()
 {
     srand(time(0));

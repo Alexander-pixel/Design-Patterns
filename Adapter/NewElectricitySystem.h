@@ -7,7 +7,7 @@ class NewElectricitySystem: public AbstractNewElectricitySystem
     int voltage =0;
 public:
     NewElectricitySystem();
-    string  matchWideSocket()const;
+    std::string matchWideSocket() const;
 };
 
 

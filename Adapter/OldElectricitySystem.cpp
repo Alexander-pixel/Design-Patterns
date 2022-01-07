@@ -2,10 +2,10 @@
 
 OldElectricitySystem::OldElectricitySystem()
 {
-    voltage = rand()%40+200;
+    voltage = rand() % 40 + 200;
 }
 
-string OldElectricitySystem::matchThinSocket() const
+std::string OldElectricitySystem::matchThinSocket() const
 {
-    return to_string(voltage)+"V";
+    return std::to_string(voltage) + "V";
 }
